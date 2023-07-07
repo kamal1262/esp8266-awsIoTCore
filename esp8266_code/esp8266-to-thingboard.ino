@@ -49,7 +49,7 @@ void loop()
   }
   // #send data every 10 seconds
   getAndSendTemperatureAndHumidityData();
-  delay(10000);
+  delay(1000);
 }
 
 void getAndSendTemperatureAndHumidityData()
